@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F71676EE1E6E872600DD460C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676EC1E6E872600DD460C /* RxCocoa.framework */; };
+		F71676EF1E6E872600DD460C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676ED1E6E872600DD460C /* RxSwift.framework */; };
 		F74BB5951E6E755D008F6EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5941E6E755D008F6EFE /* AppDelegate.swift */; };
 		F74BB5971E6E755D008F6EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5961E6E755D008F6EFE /* ViewController.swift */; };
 		F74BB59A1E6E755D008F6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74BB5981E6E755D008F6EFE /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F71676EC1E6E872600DD460C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		F71676ED1E6E872600DD460C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		F74BB5911E6E755D008F6EFE /* l6reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = l6reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74BB5941E6E755D008F6EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74BB5961E6E755D008F6EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71676EE1E6E872600DD460C /* RxCocoa.framework in Frameworks */,
+				F71676EF1E6E872600DD460C /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F71676EB1E6E872500DD460C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F71676EC1E6E872600DD460C /* RxCocoa.framework */,
+				F71676ED1E6E872600DD460C /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F74BB5881E6E755D008F6EFE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,7 @@
 				F74BB5A81E6E755D008F6EFE /* l6readerTests */,
 				F74BB5B31E6E755D008F6EFE /* l6readerUITests */,
 				F74BB5921E6E755D008F6EFE /* Products */,
+				F71676EB1E6E872500DD460C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +173,7 @@
 				F74BB58D1E6E755D008F6EFE /* Sources */,
 				F74BB58E1E6E755D008F6EFE /* Frameworks */,
 				F74BB58F1E6E755D008F6EFE /* Resources */,
+				F71676F11E6E877200DD460C /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -278,6 +295,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F71676F11E6E877200DD460C /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F74BB58D1E6E755D008F6EFE /* Sources */ = {
@@ -440,6 +476,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DDHE33635F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = l6reader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kmk.l6reader;
@@ -453,6 +493,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DDHE33635F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = l6reader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kmk.l6reader;
@@ -538,6 +582,7 @@
 				F74BB5BB1E6E755D008F6EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F74BB5BC1E6E755D008F6EFE /* Build configuration list for PBXNativeTarget "l6readerTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +591,7 @@
 				F74BB5BE1E6E755D008F6EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F74BB5BF1E6E755D008F6EFE /* Build configuration list for PBXNativeTarget "l6readerUITests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +600,7 @@
 				F74BB5C11E6E755D008F6EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
