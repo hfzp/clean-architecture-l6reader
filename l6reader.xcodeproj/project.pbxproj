@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		F71676EE1E6E872600DD460C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676EC1E6E872600DD460C /* RxCocoa.framework */; };
 		F71676EF1E6E872600DD460C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676ED1E6E872600DD460C /* RxSwift.framework */; };
+		F71676F21E6E88DC00DD460C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676EC1E6E872600DD460C /* RxCocoa.framework */; };
+		F71676F31E6E88DC00DD460C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676ED1E6E872600DD460C /* RxSwift.framework */; };
+		F71676F61E6E898000DD460C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F41E6E898000DD460C /* RxBlocking.framework */; };
+		F71676F71E6E898000DD460C /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F51E6E898000DD460C /* RxTest.framework */; };
 		F74BB5951E6E755D008F6EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5941E6E755D008F6EFE /* AppDelegate.swift */; };
 		F74BB5971E6E755D008F6EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5961E6E755D008F6EFE /* ViewController.swift */; };
 		F74BB59A1E6E755D008F6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74BB5981E6E755D008F6EFE /* Main.storyboard */; };
@@ -40,6 +44,8 @@
 /* Begin PBXFileReference section */
 		F71676EC1E6E872600DD460C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		F71676ED1E6E872600DD460C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		F71676F41E6E898000DD460C /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		F71676F51E6E898000DD460C /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		F74BB5911E6E755D008F6EFE /* l6reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = l6reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74BB5941E6E755D008F6EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74BB5961E6E755D008F6EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +77,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71676F21E6E88DC00DD460C /* RxCocoa.framework in Frameworks */,
+				F71676F31E6E88DC00DD460C /* RxSwift.framework in Frameworks */,
+				F71676F61E6E898000DD460C /* RxBlocking.framework in Frameworks */,
+				F71676F71E6E898000DD460C /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +97,8 @@
 		F71676EB1E6E872500DD460C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F71676F41E6E898000DD460C /* RxBlocking.framework */,
+				F71676F51E6E898000DD460C /* RxTest.framework */,
 				F71676EC1E6E872600DD460C /* RxCocoa.framework */,
 				F71676ED1E6E872600DD460C /* RxSwift.framework */,
 			);
@@ -511,6 +523,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = DDHE33635F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = l6readerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kmk.l6readerTests;
@@ -526,6 +542,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = DDHE33635F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = l6readerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kmk.l6readerTests;

@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol DisplayArticle {
-    func display() -> [Article];
+    func display() -> Observable<[Article]>;
 }
 
 class DisplayArticleImpl : DisplayArticle {
@@ -18,8 +19,8 @@ class DisplayArticleImpl : DisplayArticle {
         self.l6Service = l6Service
     }
     
-    func display() -> [Article] {
-        return [Article()]
+    func display() -> Observable<[Article]> {
+        return l6Service.getArticles()
     }
     
     private var l6Service: L6Service

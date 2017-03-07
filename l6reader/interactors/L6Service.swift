@@ -7,11 +7,12 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol L6Service {
-    func getArticles() -> [Article]
+    func getArticles() -> Observable<[Article]>
 }
 
 class L6ServiceBaseMock : L6Service {
-    func getArticles() -> [Article] { return [] }
+    func getArticles() -> Observable<[Article]> { return Observable.empty() }
 }
