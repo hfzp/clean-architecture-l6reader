@@ -15,6 +15,7 @@
 		F74BB5C31E6E777D008F6EFE /* DisplayArticleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5C21E6E777D008F6EFE /* DisplayArticleTest.swift */; };
 		F74BB5C61E6E7C3A008F6EFE /* DisplayArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5C51E6E7C3A008F6EFE /* DisplayArticle.swift */; };
 		F74BB5C91E6E7CF2008F6EFE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5C81E6E7CF2008F6EFE /* Article.swift */; };
+		F74BB5CB1E6E8168008F6EFE /* L6Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5CA1E6E8168008F6EFE /* L6Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F74BB5C21E6E777D008F6EFE /* DisplayArticleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayArticleTest.swift; sourceTree = "<group>"; };
 		F74BB5C51E6E7C3A008F6EFE /* DisplayArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayArticle.swift; sourceTree = "<group>"; };
 		F74BB5C81E6E7CF2008F6EFE /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		F74BB5CA1E6E8168008F6EFE /* L6Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L6Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				F74BB5C51E6E7C3A008F6EFE /* DisplayArticle.swift */,
+				F74BB5CA1E6E8168008F6EFE /* L6Service.swift */,
 			);
 			path = interactors;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74BB5CB1E6E8168008F6EFE /* L6Service.swift in Sources */,
 				F74BB5C91E6E7CF2008F6EFE /* Article.swift in Sources */,
 				F74BB5C61E6E7C3A008F6EFE /* DisplayArticle.swift in Sources */,
 				F74BB5971E6E755D008F6EFE /* ViewController.swift in Sources */,

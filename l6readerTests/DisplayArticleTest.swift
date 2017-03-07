@@ -9,10 +9,17 @@
 import XCTest
 @testable import l6reader
 
+class L6ServiceMock : L6ServiceBaseMock {
+    override func getArticles() -> [Article] {
+        return [Article()]
+    }
+}
+
 class DisplayArticleTest: XCTestCase {
     
     func testDisplay() {
-        let displayArticle = DisplayArticleImpl()
+        let l6Service = L6ServiceMock()
+        let displayArticle = DisplayArticleImpl(l6Service: l6Service)
         let articles = displayArticle.display()
         XCTAssertGreaterThan(articles.count, 0)
     }

@@ -13,7 +13,14 @@ protocol DisplayArticle {
 }
 
 class DisplayArticleImpl : DisplayArticle {
+    
+    init(l6Service: L6Service) {
+        self.l6Service = l6Service
+    }
+    
     func display() -> [Article] {
         return [Article()]
     }
+    
+    private var l6Service: L6Service
 }
