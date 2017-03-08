@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		F71676EE1E6E872600DD460C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676EC1E6E872600DD460C /* RxCocoa.framework */; };
 		F71676EF1E6E872600DD460C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676ED1E6E872600DD460C /* RxSwift.framework */; };
-		F71676F21E6E88DC00DD460C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676EC1E6E872600DD460C /* RxCocoa.framework */; };
-		F71676F31E6E88DC00DD460C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676ED1E6E872600DD460C /* RxSwift.framework */; };
-		F71676F61E6E898000DD460C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F41E6E898000DD460C /* RxBlocking.framework */; };
-		F71676F71E6E898000DD460C /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F51E6E898000DD460C /* RxTest.framework */; };
+		F71676FC1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71676FB1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift */; };
+		F71676FF1E6FA29500DD460C /* ArticleListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71676FE1E6FA29500DD460C /* ArticleListingViewModel.swift */; };
+		F71677241E6FD7D000DD460C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F41E6E898000DD460C /* RxBlocking.framework */; };
+		F71677251E6FD7D500DD460C /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F51E6E898000DD460C /* RxTest.framework */; };
 		F74BB5951E6E755D008F6EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5941E6E755D008F6EFE /* AppDelegate.swift */; };
 		F74BB5971E6E755D008F6EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5961E6E755D008F6EFE /* ViewController.swift */; };
 		F74BB59A1E6E755D008F6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74BB5981E6E755D008F6EFE /* Main.storyboard */; };
@@ -46,6 +46,18 @@
 		F71676ED1E6E872600DD460C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		F71676F41E6E898000DD460C /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		F71676F51E6E898000DD460C /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		F71676FB1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListingViewModelTest.swift; sourceTree = "<group>"; };
+		F71676FE1E6FA29500DD460C /* ArticleListingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListingViewModel.swift; sourceTree = "<group>"; };
+		F716770A1E6FB24400DD460C /* 3FBC42D1-3E9D-3F65-A8D2-4086C30F0908.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "3FBC42D1-3E9D-3F65-A8D2-4086C30F0908.bcsymbolmap"; path = "Carthage/Build/iOS/3FBC42D1-3E9D-3F65-A8D2-4086C30F0908.bcsymbolmap"; sourceTree = "<group>"; };
+		F716770B1E6FB24400DD460C /* 25A48241-12F5-3338-B0F2-01103CB54581.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "25A48241-12F5-3338-B0F2-01103CB54581.bcsymbolmap"; path = "Carthage/Build/iOS/25A48241-12F5-3338-B0F2-01103CB54581.bcsymbolmap"; sourceTree = "<group>"; };
+		F716770C1E6FB24400DD460C /* 66D6B5C2-0B7E-32C1-85E0-14924BF3F3E1.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "66D6B5C2-0B7E-32C1-85E0-14924BF3F3E1.bcsymbolmap"; path = "Carthage/Build/iOS/66D6B5C2-0B7E-32C1-85E0-14924BF3F3E1.bcsymbolmap"; sourceTree = "<group>"; };
+		F716770D1E6FB24400DD460C /* 387E706E-BDA3-3598-A049-26BADB60AA73.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "387E706E-BDA3-3598-A049-26BADB60AA73.bcsymbolmap"; path = "Carthage/Build/iOS/387E706E-BDA3-3598-A049-26BADB60AA73.bcsymbolmap"; sourceTree = "<group>"; };
+		F716770E1E6FB24400DD460C /* 598AB9AC-D429-3CD0-95E1-882398C2C7D8.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "598AB9AC-D429-3CD0-95E1-882398C2C7D8.bcsymbolmap"; path = "Carthage/Build/iOS/598AB9AC-D429-3CD0-95E1-882398C2C7D8.bcsymbolmap"; sourceTree = "<group>"; };
+		F716770F1E6FB24400DD460C /* 935D7B5E-D6AE-312F-8187-234A3B110539.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; name = "935D7B5E-D6AE-312F-8187-234A3B110539.bcsymbolmap"; path = "Carthage/Build/iOS/935D7B5E-D6AE-312F-8187-234A3B110539.bcsymbolmap"; sourceTree = "<group>"; };
+		F71677101E6FB24400DD460C /* RxBlocking.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxBlocking.framework.dSYM; path = Carthage/Build/iOS/RxBlocking.framework.dSYM; sourceTree = "<group>"; };
+		F71677111E6FB24400DD460C /* RxCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxCocoa.framework.dSYM; path = Carthage/Build/iOS/RxCocoa.framework.dSYM; sourceTree = "<group>"; };
+		F71677121E6FB24400DD460C /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxSwift.framework.dSYM; path = Carthage/Build/iOS/RxSwift.framework.dSYM; sourceTree = "<group>"; };
+		F71677131E6FB24500DD460C /* RxTest.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxTest.framework.dSYM; path = Carthage/Build/iOS/RxTest.framework.dSYM; sourceTree = "<group>"; };
 		F74BB5911E6E755D008F6EFE /* l6reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = l6reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74BB5941E6E755D008F6EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74BB5961E6E755D008F6EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,10 +89,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71676F21E6E88DC00DD460C /* RxCocoa.framework in Frameworks */,
-				F71676F31E6E88DC00DD460C /* RxSwift.framework in Frameworks */,
-				F71676F61E6E898000DD460C /* RxBlocking.framework in Frameworks */,
-				F71676F71E6E898000DD460C /* RxTest.framework in Frameworks */,
+				F71677241E6FD7D000DD460C /* RxBlocking.framework in Frameworks */,
+				F71677251E6FD7D500DD460C /* RxTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +107,30 @@
 		F71676EB1E6E872500DD460C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F716770A1E6FB24400DD460C /* 3FBC42D1-3E9D-3F65-A8D2-4086C30F0908.bcsymbolmap */,
+				F716770B1E6FB24400DD460C /* 25A48241-12F5-3338-B0F2-01103CB54581.bcsymbolmap */,
+				F716770C1E6FB24400DD460C /* 66D6B5C2-0B7E-32C1-85E0-14924BF3F3E1.bcsymbolmap */,
+				F716770D1E6FB24400DD460C /* 387E706E-BDA3-3598-A049-26BADB60AA73.bcsymbolmap */,
+				F716770E1E6FB24400DD460C /* 598AB9AC-D429-3CD0-95E1-882398C2C7D8.bcsymbolmap */,
+				F716770F1E6FB24400DD460C /* 935D7B5E-D6AE-312F-8187-234A3B110539.bcsymbolmap */,
+				F71677101E6FB24400DD460C /* RxBlocking.framework.dSYM */,
+				F71677111E6FB24400DD460C /* RxCocoa.framework.dSYM */,
+				F71677121E6FB24400DD460C /* RxSwift.framework.dSYM */,
+				F71677131E6FB24500DD460C /* RxTest.framework.dSYM */,
 				F71676F41E6E898000DD460C /* RxBlocking.framework */,
 				F71676F51E6E898000DD460C /* RxTest.framework */,
 				F71676EC1E6E872600DD460C /* RxCocoa.framework */,
 				F71676ED1E6E872600DD460C /* RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F71676FD1E6FA27500DD460C /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				F71676FE1E6FA29500DD460C /* ArticleListingViewModel.swift */,
+			);
+			path = viewmodels;
 			sourceTree = "<group>";
 		};
 		F74BB5881E6E755D008F6EFE = {
@@ -129,6 +157,7 @@
 		F74BB5931E6E755D008F6EFE /* l6reader */ = {
 			isa = PBXGroup;
 			children = (
+				F71676FD1E6FA27500DD460C /* viewmodels */,
 				F74BB5C71E6E7CD7008F6EFE /* entities */,
 				F74BB5C41E6E7C06008F6EFE /* interactors */,
 				F74BB5941E6E755D008F6EFE /* AppDelegate.swift */,
@@ -146,6 +175,7 @@
 			children = (
 				F74BB5AB1E6E755D008F6EFE /* Info.plist */,
 				F74BB5C21E6E777D008F6EFE /* DisplayArticleTest.swift */,
+				F71676FB1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift */,
 			);
 			path = l6readerTests;
 			sourceTree = "<group>";
@@ -203,6 +233,7 @@
 				F74BB5A11E6E755D008F6EFE /* Sources */,
 				F74BB5A21E6E755D008F6EFE /* Frameworks */,
 				F74BB5A31E6E755D008F6EFE /* Resources */,
+				F71677231E6FD7A200DD460C /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -325,6 +356,22 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
+		F71677231E6FD7A200DD460C /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -332,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71676FF1E6FA29500DD460C /* ArticleListingViewModel.swift in Sources */,
 				F74BB5CB1E6E8168008F6EFE /* L6Service.swift in Sources */,
 				F74BB5C91E6E7CF2008F6EFE /* Article.swift in Sources */,
 				F74BB5C61E6E7C3A008F6EFE /* DisplayArticle.swift in Sources */,
@@ -344,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F71676FC1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift in Sources */,
 				F74BB5C31E6E777D008F6EFE /* DisplayArticleTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -474,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -560,6 +609,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DDHE33635F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = l6readerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kmk.l6readerUITests;
@@ -574,6 +627,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DDHE33635F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = l6readerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kmk.l6readerUITests;
