@@ -13,6 +13,7 @@
 		F71676FF1E6FA29500DD460C /* ArticleListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71676FE1E6FA29500DD460C /* ArticleListingViewModel.swift */; };
 		F71677241E6FD7D000DD460C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F41E6E898000DD460C /* RxBlocking.framework */; };
 		F71677251E6FD7D500DD460C /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F51E6E898000DD460C /* RxTest.framework */; };
+		F71677271E71242A00DD460C /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71677261E71242A00DD460C /* RxDataSources.framework */; };
 		F74BB5951E6E755D008F6EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5941E6E755D008F6EFE /* AppDelegate.swift */; };
 		F74BB5971E6E755D008F6EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5961E6E755D008F6EFE /* ViewController.swift */; };
 		F74BB59A1E6E755D008F6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74BB5981E6E755D008F6EFE /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		F71677111E6FB24400DD460C /* RxCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxCocoa.framework.dSYM; path = Carthage/Build/iOS/RxCocoa.framework.dSYM; sourceTree = "<group>"; };
 		F71677121E6FB24400DD460C /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxSwift.framework.dSYM; path = Carthage/Build/iOS/RxSwift.framework.dSYM; sourceTree = "<group>"; };
 		F71677131E6FB24500DD460C /* RxTest.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxTest.framework.dSYM; path = Carthage/Build/iOS/RxTest.framework.dSYM; sourceTree = "<group>"; };
+		F71677261E71242A00DD460C /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		F74BB5911E6E755D008F6EFE /* l6reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = l6reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74BB5941E6E755D008F6EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74BB5961E6E755D008F6EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			files = (
 				F71676EE1E6E872600DD460C /* RxCocoa.framework in Frameworks */,
 				F71676EF1E6E872600DD460C /* RxSwift.framework in Frameworks */,
+				F71677271E71242A00DD460C /* RxDataSources.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +110,7 @@
 		F71676EB1E6E872500DD460C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F71677261E71242A00DD460C /* RxDataSources.framework */,
 				F716770A1E6FB24400DD460C /* 3FBC42D1-3E9D-3F65-A8D2-4086C30F0908.bcsymbolmap */,
 				F716770B1E6FB24400DD460C /* 25A48241-12F5-3338-B0F2-01103CB54581.bcsymbolmap */,
 				F716770C1E6FB24400DD460C /* 66D6B5C2-0B7E-32C1-85E0-14924BF3F3E1.bcsymbolmap */,
@@ -348,6 +352,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
 			);
 			name = Carthage;
 			outputPaths = (
