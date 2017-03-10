@@ -14,8 +14,11 @@
 		F71677241E6FD7D000DD460C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F41E6E898000DD460C /* RxBlocking.framework */; };
 		F71677251E6FD7D500DD460C /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F51E6E898000DD460C /* RxTest.framework */; };
 		F71677271E71242A00DD460C /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71677261E71242A00DD460C /* RxDataSources.framework */; };
+		F716772B1E7244FD00DD460C /* ArticleListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F716772A1E7244FD00DD460C /* ArticleListingViewController.swift */; };
+		F71677301E7245A600DD460C /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F716772F1E7245A600DD460C /* Swinject.framework */; };
+		F71677321E7245E400DD460C /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71677311E7245E400DD460C /* SwinjectStoryboard+Setup.swift */; };
+		F71677341E729A3000DD460C /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71677331E729A3000DD460C /* SwinjectStoryboard.framework */; };
 		F74BB5951E6E755D008F6EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5941E6E755D008F6EFE /* AppDelegate.swift */; };
-		F74BB5971E6E755D008F6EFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5961E6E755D008F6EFE /* ViewController.swift */; };
 		F74BB59A1E6E755D008F6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74BB5981E6E755D008F6EFE /* Main.storyboard */; };
 		F74BB59C1E6E755D008F6EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74BB59B1E6E755D008F6EFE /* Assets.xcassets */; };
 		F74BB59F1E6E755D008F6EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74BB59D1E6E755D008F6EFE /* LaunchScreen.storyboard */; };
@@ -60,9 +63,12 @@
 		F71677121E6FB24400DD460C /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxSwift.framework.dSYM; path = Carthage/Build/iOS/RxSwift.framework.dSYM; sourceTree = "<group>"; };
 		F71677131E6FB24500DD460C /* RxTest.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = RxTest.framework.dSYM; path = Carthage/Build/iOS/RxTest.framework.dSYM; sourceTree = "<group>"; };
 		F71677261E71242A00DD460C /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		F716772A1E7244FD00DD460C /* ArticleListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleListingViewController.swift; sourceTree = "<group>"; };
+		F716772F1E7245A600DD460C /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		F71677311E7245E400DD460C /* SwinjectStoryboard+Setup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Setup.swift"; sourceTree = "<group>"; };
+		F71677331E729A3000DD460C /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwinjectStoryboard.framework; path = Carthage/Build/iOS/SwinjectStoryboard.framework; sourceTree = "<group>"; };
 		F74BB5911E6E755D008F6EFE /* l6reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = l6reader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74BB5941E6E755D008F6EFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F74BB5961E6E755D008F6EFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F74BB5991E6E755D008F6EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F74BB59B1E6E755D008F6EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74BB59E1E6E755D008F6EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,6 +91,8 @@
 				F71676EE1E6E872600DD460C /* RxCocoa.framework in Frameworks */,
 				F71676EF1E6E872600DD460C /* RxSwift.framework in Frameworks */,
 				F71677271E71242A00DD460C /* RxDataSources.framework in Frameworks */,
+				F71677301E7245A600DD460C /* Swinject.framework in Frameworks */,
+				F71677341E729A3000DD460C /* SwinjectStoryboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +118,8 @@
 		F71676EB1E6E872500DD460C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F71677331E729A3000DD460C /* SwinjectStoryboard.framework */,
+				F716772F1E7245A600DD460C /* Swinject.framework */,
 				F71677261E71242A00DD460C /* RxDataSources.framework */,
 				F716770A1E6FB24400DD460C /* 3FBC42D1-3E9D-3F65-A8D2-4086C30F0908.bcsymbolmap */,
 				F716770B1E6FB24400DD460C /* 25A48241-12F5-3338-B0F2-01103CB54581.bcsymbolmap */,
@@ -137,6 +147,34 @@
 			path = viewmodels;
 			sourceTree = "<group>";
 		};
+		F71677291E72444900DD460C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F716772A1E7244FD00DD460C /* ArticleListingViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F716772C1E72453E00DD460C /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F74BB5981E6E755D008F6EFE /* Main.storyboard */,
+				F74BB59B1E6E755D008F6EFE /* Assets.xcassets */,
+				F74BB59D1E6E755D008F6EFE /* LaunchScreen.storyboard */,
+				F74BB5A01E6E755D008F6EFE /* Info.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		F716772E1E72455500DD460C /* app */ = {
+			isa = PBXGroup;
+			children = (
+				F74BB5941E6E755D008F6EFE /* AppDelegate.swift */,
+				F71677311E7245E400DD460C /* SwinjectStoryboard+Setup.swift */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
 		F74BB5881E6E755D008F6EFE = {
 			isa = PBXGroup;
 			children = (
@@ -161,15 +199,12 @@
 		F74BB5931E6E755D008F6EFE /* l6reader */ = {
 			isa = PBXGroup;
 			children = (
-				F71676FD1E6FA27500DD460C /* viewmodels */,
+				F716772E1E72455500DD460C /* app */,
+				F716772C1E72453E00DD460C /* resources */,
 				F74BB5C71E6E7CD7008F6EFE /* entities */,
 				F74BB5C41E6E7C06008F6EFE /* interactors */,
-				F74BB5941E6E755D008F6EFE /* AppDelegate.swift */,
-				F74BB5961E6E755D008F6EFE /* ViewController.swift */,
-				F74BB5981E6E755D008F6EFE /* Main.storyboard */,
-				F74BB59B1E6E755D008F6EFE /* Assets.xcassets */,
-				F74BB59D1E6E755D008F6EFE /* LaunchScreen.storyboard */,
-				F74BB5A01E6E755D008F6EFE /* Info.plist */,
+				F71676FD1E6FA27500DD460C /* viewmodels */,
+				F71677291E72444900DD460C /* views */,
 			);
 			path = l6reader;
 			sourceTree = "<group>";
@@ -353,6 +388,8 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwinjectStoryboard.framework",
 			);
 			name = Carthage;
 			outputPaths = (
@@ -384,11 +421,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F716772B1E7244FD00DD460C /* ArticleListingViewController.swift in Sources */,
 				F71676FF1E6FA29500DD460C /* ArticleListingViewModel.swift in Sources */,
 				F74BB5CB1E6E8168008F6EFE /* L6Service.swift in Sources */,
 				F74BB5C91E6E7CF2008F6EFE /* Article.swift in Sources */,
+				F71677321E7245E400DD460C /* SwinjectStoryboard+Setup.swift in Sources */,
 				F74BB5C61E6E7C3A008F6EFE /* DisplayArticle.swift in Sources */,
-				F74BB5971E6E755D008F6EFE /* ViewController.swift in Sources */,
 				F74BB5951E6E755D008F6EFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

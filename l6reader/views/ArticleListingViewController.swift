@@ -10,23 +10,11 @@ import UIKit
 import RxSwift
 import RxDataSources
 
-
-class DisplayArticleMock : DisplayArticle {
-    
-    func display() -> Observable<[Article]> {
-        let articles = [Article(title:"mine"), Article(title:"yours"), Article(title:"the truth")]
-        return Observable.just(articles)
-    }
-}
-
-class ViewController: UIViewController {
+class ArticleListingViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
    
-    private let data = Observable<[String]>.just(["first element", "second element", "third element"])
-    
-    
-    private var articleListingVM = ArticleListingViewModel(displayArticle: DisplayArticleMock())
+    var articleListingVM:ArticleListingViewModel!
     
     private let disposeBag = DisposeBag()
     
@@ -40,7 +28,6 @@ class ViewController: UIViewController {
             }.disposed(by: disposeBag)
         
         articleListingVM.didLoad()
-        
     }
 }
 
