@@ -35,7 +35,7 @@ extension SwinjectStoryboard {
         }
         
         defaultContainer.register(L6Service.self) { _ in
-            L6ServiceMock()
+            L6FeedService()
         }
     }
 }

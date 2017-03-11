@@ -10,6 +10,7 @@
 		2ABA52B41CFC83CE91713F08 /* Pods_l6reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF23150C11502ADEFC2DB4EB /* Pods_l6reader.framework */; };
 		863C1CDE1E73ABBB00A24F78 /* L6FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1CDD1E73ABBB00A24F78 /* L6FeedService.swift */; };
 		863C1D011E73B41B00A24F78 /* L6FeedServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */; };
+		8656A4661E73E3E100A3DCB7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8656A4651E73E3E100A3DCB7 /* Podfile */; };
 		8A6E774C0294E65A41C29E7C /* Pods_l6readerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */; };
 		D5164C9F3D46D9D5AA4CBF1E /* Pods_l6readerIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF2964277BBA58EF7F68072 /* Pods_l6readerIntegrationTests.framework */; };
 		F71676FC1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71676FB1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift */; };
@@ -51,6 +52,7 @@
 		863C1CF61E73B3DC00A24F78 /* l6readerIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = l6readerIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		863C1CFA1E73B3DD00A24F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L6FeedServiceTests.swift; sourceTree = "<group>"; };
+		8656A4651E73E3E100A3DCB7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6readerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF23150C11502ADEFC2DB4EB /* Pods_l6reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A4BADD6312B316FA892FF1 /* Pods-l6reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-l6reader/Pods-l6reader.release.xcconfig"; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		F716772C1E72453E00DD460C /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				8656A4651E73E3E100A3DCB7 /* Podfile */,
 				F74BB5981E6E755D008F6EFE /* Main.storyboard */,
 				F74BB59B1E6E755D008F6EFE /* Assets.xcassets */,
 				F74BB59D1E6E755D008F6EFE /* LaunchScreen.storyboard */,
@@ -413,6 +416,7 @@
 			files = (
 				F74BB59F1E6E755D008F6EFE /* LaunchScreen.storyboard in Resources */,
 				F74BB59C1E6E755D008F6EFE /* Assets.xcassets in Resources */,
+				8656A4661E73E3E100A3DCB7 /* Podfile in Resources */,
 				F74BB59A1E6E755D008F6EFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
