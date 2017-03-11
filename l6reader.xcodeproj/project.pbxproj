@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F71676EE1E6E872600DD460C /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676EC1E6E872600DD460C /* RxCocoa.framework */; };
-		F71676EF1E6E872600DD460C /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676ED1E6E872600DD460C /* RxSwift.framework */; };
+		2ABA52B41CFC83CE91713F08 /* Pods_l6reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF23150C11502ADEFC2DB4EB /* Pods_l6reader.framework */; };
+		863C1CDE1E73ABBB00A24F78 /* L6FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1CDD1E73ABBB00A24F78 /* L6FeedService.swift */; };
+		863C1D011E73B41B00A24F78 /* L6FeedServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */; };
+		8A6E774C0294E65A41C29E7C /* Pods_l6readerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */; };
+		D5164C9F3D46D9D5AA4CBF1E /* Pods_l6readerIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF2964277BBA58EF7F68072 /* Pods_l6readerIntegrationTests.framework */; };
 		F71676FC1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71676FB1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift */; };
 		F71676FF1E6FA29500DD460C /* ArticleListingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71676FE1E6FA29500DD460C /* ArticleListingViewModel.swift */; };
-		F71677241E6FD7D000DD460C /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F41E6E898000DD460C /* RxBlocking.framework */; };
-		F71677251E6FD7D500DD460C /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71676F51E6E898000DD460C /* RxTest.framework */; };
-		F71677271E71242A00DD460C /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71677261E71242A00DD460C /* RxDataSources.framework */; };
 		F716772B1E7244FD00DD460C /* ArticleListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F716772A1E7244FD00DD460C /* ArticleListingViewController.swift */; };
-		F71677301E7245A600DD460C /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F716772F1E7245A600DD460C /* Swinject.framework */; };
 		F71677321E7245E400DD460C /* SwinjectStoryboard+Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71677311E7245E400DD460C /* SwinjectStoryboard+Setup.swift */; };
-		F71677341E729A3000DD460C /* SwinjectStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71677331E729A3000DD460C /* SwinjectStoryboard.framework */; };
 		F74BB5951E6E755D008F6EFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74BB5941E6E755D008F6EFE /* AppDelegate.swift */; };
 		F74BB59A1E6E755D008F6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74BB5981E6E755D008F6EFE /* Main.storyboard */; };
 		F74BB59C1E6E755D008F6EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74BB59B1E6E755D008F6EFE /* Assets.xcassets */; };
@@ -29,14 +27,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F74BB5A61E6E755D008F6EFE /* PBXContainerItemProxy */ = {
+		863C1CFB1E73B3DD00A24F78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F74BB5891E6E755D008F6EFE /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F74BB5901E6E755D008F6EFE;
 			remoteInfo = l6reader;
 		};
-		F74BB5B11E6E755D008F6EFE /* PBXContainerItemProxy */ = {
+		F74BB5A61E6E755D008F6EFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F74BB5891E6E755D008F6EFE /* Project object */;
 			proxyType = 1;
@@ -46,6 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F8A01E7F58CD5CC5E8E689C /* Pods-l6readerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6readerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-l6readerTests/Pods-l6readerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F4789EA5E4A1E434E5B8469 /* Pods-l6readerIntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6readerIntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-l6readerIntegrationTests/Pods-l6readerIntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E4F60BDAD355E6312675DE9 /* Pods-l6readerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6readerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-l6readerTests/Pods-l6readerTests.release.xcconfig"; sourceTree = "<group>"; };
+		863C1CDD1E73ABBB00A24F78 /* L6FeedService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L6FeedService.swift; sourceTree = "<group>"; };
+		863C1CF61E73B3DC00A24F78 /* l6readerIntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = l6readerIntegrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		863C1CFA1E73B3DD00A24F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L6FeedServiceTests.swift; sourceTree = "<group>"; };
+		B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6readerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF23150C11502ADEFC2DB4EB /* Pods_l6reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A4BADD6312B316FA892FF1 /* Pods-l6reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-l6reader/Pods-l6reader.release.xcconfig"; sourceTree = "<group>"; };
+		E1916C32F78C0B0C689795D3 /* Pods-l6readerIntegrationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6readerIntegrationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-l6readerIntegrationTests/Pods-l6readerIntegrationTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5AB1F468AE197FC757CDC7C /* Pods-l6reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6reader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-l6reader/Pods-l6reader.debug.xcconfig"; sourceTree = "<group>"; };
+		EFF2964277BBA58EF7F68072 /* Pods_l6readerIntegrationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6readerIntegrationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71676EC1E6E872600DD460C /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		F71676ED1E6E872600DD460C /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		F71676F41E6E898000DD460C /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
@@ -75,7 +86,6 @@
 		F74BB5A01E6E755D008F6EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74BB5A51E6E755D008F6EFE /* l6readerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = l6readerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74BB5AB1E6E755D008F6EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F74BB5B01E6E755D008F6EFE /* l6readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = l6readerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74BB5B61E6E755D008F6EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F74BB5C21E6E777D008F6EFE /* DisplayArticleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayArticleTest.swift; sourceTree = "<group>"; };
 		F74BB5C51E6E7C3A008F6EFE /* DisplayArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayArticle.swift; sourceTree = "<group>"; };
@@ -84,15 +94,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		863C1CF31E73B3DC00A24F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5164C9F3D46D9D5AA4CBF1E /* Pods_l6readerIntegrationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F74BB58E1E6E755D008F6EFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71676EE1E6E872600DD460C /* RxCocoa.framework in Frameworks */,
-				F71676EF1E6E872600DD460C /* RxSwift.framework in Frameworks */,
-				F71677271E71242A00DD460C /* RxDataSources.framework in Frameworks */,
-				F71677301E7245A600DD460C /* Swinject.framework in Frameworks */,
-				F71677341E729A3000DD460C /* SwinjectStoryboard.framework in Frameworks */,
+				2ABA52B41CFC83CE91713F08 /* Pods_l6reader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,21 +114,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71677241E6FD7D000DD460C /* RxBlocking.framework in Frameworks */,
-				F71677251E6FD7D500DD460C /* RxTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F74BB5AD1E6E755D008F6EFE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8A6E774C0294E65A41C29E7C /* Pods_l6readerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		863C1CDC1E73AA8800A24F78 /* adapters */ = {
+			isa = PBXGroup;
+			children = (
+				863C1CDD1E73ABBB00A24F78 /* L6FeedService.swift */,
+			);
+			path = adapters;
+			sourceTree = "<group>";
+		};
+		863C1CF71E73B3DD00A24F78 /* l6readerIntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */,
+				863C1CFA1E73B3DD00A24F78 /* Info.plist */,
+			);
+			path = l6readerIntegrationTests;
+			sourceTree = "<group>";
+		};
+		F0D6942FB2A4F4C356B94EC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5AB1F468AE197FC757CDC7C /* Pods-l6reader.debug.xcconfig */,
+				D7A4BADD6312B316FA892FF1 /* Pods-l6reader.release.xcconfig */,
+				3F4789EA5E4A1E434E5B8469 /* Pods-l6readerIntegrationTests.debug.xcconfig */,
+				E1916C32F78C0B0C689795D3 /* Pods-l6readerIntegrationTests.release.xcconfig */,
+				0F8A01E7F58CD5CC5E8E689C /* Pods-l6readerTests.debug.xcconfig */,
+				7E4F60BDAD355E6312675DE9 /* Pods-l6readerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F71676EB1E6E872500DD460C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +171,9 @@
 				F71676F51E6E898000DD460C /* RxTest.framework */,
 				F71676EC1E6E872600DD460C /* RxCocoa.framework */,
 				F71676ED1E6E872600DD460C /* RxSwift.framework */,
+				BF23150C11502ADEFC2DB4EB /* Pods_l6reader.framework */,
+				EFF2964277BBA58EF7F68072 /* Pods_l6readerIntegrationTests.framework */,
+				B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,8 +220,10 @@
 				F74BB5931E6E755D008F6EFE /* l6reader */,
 				F74BB5A81E6E755D008F6EFE /* l6readerTests */,
 				F74BB5B31E6E755D008F6EFE /* l6readerUITests */,
+				863C1CF71E73B3DD00A24F78 /* l6readerIntegrationTests */,
 				F74BB5921E6E755D008F6EFE /* Products */,
 				F71676EB1E6E872500DD460C /* Frameworks */,
+				F0D6942FB2A4F4C356B94EC8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,7 +232,7 @@
 			children = (
 				F74BB5911E6E755D008F6EFE /* l6reader.app */,
 				F74BB5A51E6E755D008F6EFE /* l6readerTests.xctest */,
-				F74BB5B01E6E755D008F6EFE /* l6readerUITests.xctest */,
+				863C1CF61E73B3DC00A24F78 /* l6readerIntegrationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +245,7 @@
 				F74BB5C71E6E7CD7008F6EFE /* entities */,
 				F74BB5C41E6E7C06008F6EFE /* interactors */,
 				F71676FD1E6FA27500DD460C /* viewmodels */,
+				863C1CDC1E73AA8800A24F78 /* adapters */,
 				F71677291E72444900DD460C /* views */,
 			);
 			path = l6reader;
@@ -247,14 +289,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		863C1CF51E73B3DC00A24F78 /* l6readerIntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863C1CFD1E73B3DD00A24F78 /* Build configuration list for PBXNativeTarget "l6readerIntegrationTests" */;
+			buildPhases = (
+				3098E54F99D6B6B39D5823E1 /* [CP] Check Pods Manifest.lock */,
+				863C1CF21E73B3DC00A24F78 /* Sources */,
+				863C1CF31E73B3DC00A24F78 /* Frameworks */,
+				863C1CF41E73B3DC00A24F78 /* Resources */,
+				DC59DF606EFC0DA5BEE5B5AF /* [CP] Embed Pods Frameworks */,
+				49711755658B910BDA69AF89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863C1CFC1E73B3DD00A24F78 /* PBXTargetDependency */,
+			);
+			name = l6readerIntegrationTests;
+			productName = l6readerIntegrationTests;
+			productReference = 863C1CF61E73B3DC00A24F78 /* l6readerIntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F74BB5901E6E755D008F6EFE /* l6reader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F74BB5B91E6E755D008F6EFE /* Build configuration list for PBXNativeTarget "l6reader" */;
 			buildPhases = (
+				07B66B7B522F966F9102FFE3 /* [CP] Check Pods Manifest.lock */,
 				F74BB58D1E6E755D008F6EFE /* Sources */,
 				F74BB58E1E6E755D008F6EFE /* Frameworks */,
 				F74BB58F1E6E755D008F6EFE /* Resources */,
-				F71676F11E6E877200DD460C /* Carthage */,
+				01283AEE29F097640B92BC61 /* [CP] Embed Pods Frameworks */,
+				6C6643DF0B84D795B1F863B3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,10 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F74BB5BC1E6E755D008F6EFE /* Build configuration list for PBXNativeTarget "l6readerTests" */;
 			buildPhases = (
+				02981DC6F2484C22B2CB346C /* [CP] Check Pods Manifest.lock */,
 				F74BB5A11E6E755D008F6EFE /* Sources */,
 				F74BB5A21E6E755D008F6EFE /* Frameworks */,
 				F74BB5A31E6E755D008F6EFE /* Resources */,
-				F71677231E6FD7A200DD460C /* Carthage */,
+				9462AA80E5BD0715FED0E582 /* [CP] Embed Pods Frameworks */,
+				6DAAA584E6BC4E0B5691D9E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,24 +351,6 @@
 			productReference = F74BB5A51E6E755D008F6EFE /* l6readerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F74BB5AF1E6E755D008F6EFE /* l6readerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F74BB5BF1E6E755D008F6EFE /* Build configuration list for PBXNativeTarget "l6readerUITests" */;
-			buildPhases = (
-				F74BB5AC1E6E755D008F6EFE /* Sources */,
-				F74BB5AD1E6E755D008F6EFE /* Frameworks */,
-				F74BB5AE1E6E755D008F6EFE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F74BB5B21E6E755D008F6EFE /* PBXTargetDependency */,
-			);
-			name = l6readerUITests;
-			productName = l6readerUITests;
-			productReference = F74BB5B01E6E755D008F6EFE /* l6readerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -312,18 +361,17 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = woi;
 				TargetAttributes = {
+					863C1CF51E73B3DC00A24F78 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F74BB5901E6E755D008F6EFE;
+					};
 					F74BB5901E6E755D008F6EFE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DDHE33635F;
 						ProvisioningStyle = Automatic;
 					};
 					F74BB5A41E6E755D008F6EFE = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = DDHE33635F;
-						ProvisioningStyle = Automatic;
-						TestTargetID = F74BB5901E6E755D008F6EFE;
-					};
-					F74BB5AF1E6E755D008F6EFE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DDHE33635F;
 						ProvisioningStyle = Automatic;
@@ -346,12 +394,19 @@
 			targets = (
 				F74BB5901E6E755D008F6EFE /* l6reader */,
 				F74BB5A41E6E755D008F6EFE /* l6readerTests */,
-				F74BB5AF1E6E755D008F6EFE /* l6readerUITests */,
+				863C1CF51E73B3DC00A24F78 /* l6readerIntegrationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		863C1CF41E73B3DC00A24F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F74BB58F1E6E755D008F6EFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,54 +424,155 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74BB5AE1E6E755D008F6EFE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		F71676F11E6E877200DD460C /* Carthage */ = {
+		01283AEE29F097640B92BC61 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/SwinjectStoryboard.framework",
 			);
-			name = Carthage;
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-l6reader/Pods-l6reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-		F71677231E6FD7A200DD460C /* Carthage */ = {
+		02981DC6F2484C22B2CB346C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 			);
-			name = Carthage;
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		07B66B7B522F966F9102FFE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3098E54F99D6B6B39D5823E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49711755658B910BDA69AF89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-l6readerIntegrationTests/Pods-l6readerIntegrationTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6643DF0B84D795B1F863B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-l6reader/Pods-l6reader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DAAA584E6BC4E0B5691D9E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-l6readerTests/Pods-l6readerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9462AA80E5BD0715FED0E582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-l6readerTests/Pods-l6readerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC59DF606EFC0DA5BEE5B5AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-l6readerIntegrationTests/Pods-l6readerIntegrationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		863C1CF21E73B3DC00A24F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863C1D011E73B41B00A24F78 /* L6FeedServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F74BB58D1E6E755D008F6EFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,6 +582,7 @@
 				F74BB5CB1E6E8168008F6EFE /* L6Service.swift in Sources */,
 				F74BB5C91E6E7CF2008F6EFE /* Article.swift in Sources */,
 				F71677321E7245E400DD460C /* SwinjectStoryboard+Setup.swift in Sources */,
+				863C1CDE1E73ABBB00A24F78 /* L6FeedService.swift in Sources */,
 				F74BB5C61E6E7C3A008F6EFE /* DisplayArticle.swift in Sources */,
 				F74BB5951E6E755D008F6EFE /* AppDelegate.swift in Sources */,
 			);
@@ -440,25 +597,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F74BB5AC1E6E755D008F6EFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		863C1CFC1E73B3DD00A24F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74BB5901E6E755D008F6EFE /* l6reader */;
+			targetProxy = 863C1CFB1E73B3DD00A24F78 /* PBXContainerItemProxy */;
+		};
 		F74BB5A71E6E755D008F6EFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = F74BB5901E6E755D008F6EFE /* l6reader */;
 			targetProxy = F74BB5A61E6E755D008F6EFE /* PBXContainerItemProxy */;
-		};
-		F74BB5B21E6E755D008F6EFE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F74BB5901E6E755D008F6EFE /* l6reader */;
-			targetProxy = F74BB5B11E6E755D008F6EFE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -482,9 +632,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		863C1CFE1E73B3DD00A24F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4789EA5E4A1E434E5B8469 /* Pods-l6readerIntegrationTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = l6readerIntegrationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hafiz.l6readerIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/l6reader.app/l6reader";
+			};
+			name = Debug;
+		};
+		863C1CFF1E73B3DD00A24F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1916C32F78C0B0C689795D3 /* Pods-l6readerIntegrationTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = l6readerIntegrationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hafiz.l6readerIntegrationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/l6reader.app/l6reader";
+			};
+			name = Release;
+		};
 		F74BB5B71E6E755D008F6EFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -535,6 +724,7 @@
 		F74BB5B81E6E755D008F6EFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -577,6 +767,7 @@
 		};
 		F74BB5BA1E6E755D008F6EFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AB1F468AE197FC757CDC7C /* Pods-l6reader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DDHE33635F;
@@ -594,6 +785,7 @@
 		};
 		F74BB5BB1E6E755D008F6EFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A4BADD6312B316FA892FF1 /* Pods-l6reader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DDHE33635F;
@@ -611,6 +803,7 @@
 		};
 		F74BB5BD1E6E755D008F6EFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8A01E7F58CD5CC5E8E689C /* Pods-l6readerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -630,6 +823,7 @@
 		};
 		F74BB5BE1E6E755D008F6EFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4F60BDAD355E6312675DE9 /* Pods-l6readerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -647,45 +841,18 @@
 			};
 			name = Release;
 		};
-		F74BB5C01E6E755D008F6EFE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = DDHE33635F;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = l6readerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmk.l6readerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = l6reader;
-			};
-			name = Debug;
-		};
-		F74BB5C11E6E755D008F6EFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = DDHE33635F;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = l6readerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kmk.l6readerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = l6reader;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		863C1CFD1E73B3DD00A24F78 /* Build configuration list for PBXNativeTarget "l6readerIntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863C1CFE1E73B3DD00A24F78 /* Debug */,
+				863C1CFF1E73B3DD00A24F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F74BB58C1E6E755D008F6EFE /* Build configuration list for PBXProject "l6reader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -709,15 +876,6 @@
 			buildConfigurations = (
 				F74BB5BD1E6E755D008F6EFE /* Debug */,
 				F74BB5BE1E6E755D008F6EFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F74BB5BF1E6E755D008F6EFE /* Build configuration list for PBXNativeTarget "l6readerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F74BB5C01E6E755D008F6EFE /* Debug */,
-				F74BB5C11E6E755D008F6EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
