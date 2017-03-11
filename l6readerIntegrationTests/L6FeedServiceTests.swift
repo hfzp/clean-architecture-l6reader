@@ -19,5 +19,6 @@ class L6FeedServiceTests: XCTestCase {
 		let articles = try! l6FeedService.getArticles().toBlocking().first()!
 		XCTAssertFalse(articles.isEmpty)
 		XCTAssertFalse((articles.first?.title.isEmpty)!)
+		XCTAssertFalse((articles.first?.content.isEmpty)!)
     }
 }

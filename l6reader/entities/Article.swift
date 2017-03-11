@@ -10,4 +10,5 @@ import Foundation
 
 struct Article {
     var title = ""
+	var content = ""
 }

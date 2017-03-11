@@ -14,6 +14,7 @@ class ChannelResponse: EVNetworkingObject {
 
 class ArticleResponse: EVNetworkingObject {
     var title: String?
+	var _description: String?
 }
 
 enum L6FeedServiceError : Error {
@@ -34,7 +35,11 @@ class L6FeedService : L6Service {
 					response.result.value?.channel[0].item
 				{
 					let articles = articlesResponse
-						.map { Article(title: $0.title ?? "")}
+						.map { response in
+							Article(
+								title: response.title ?? "",
+								content: response._description ?? "")
+						}
 					self?.subject.onNext(articles)
 				}
 				else {

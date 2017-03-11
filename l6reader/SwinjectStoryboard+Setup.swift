@@ -14,7 +14,12 @@ import RxSwift
 
 class L6ServiceMock : L6Service {
     func getArticles() -> Observable<[Article]> {
-        let articles = [Article(title:"mine"), Article(title:"yours"), Article(title:"the truth")]
+	
+        let articles =
+			[Article(title:"mine", content: ""),
+			Article(title:"yours", content: ""),
+			Article(title:"the truth", content: "")]
+			
         return Observable.just(articles)
     }
 }
