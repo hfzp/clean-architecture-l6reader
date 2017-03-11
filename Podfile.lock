@@ -10,6 +10,7 @@ PODS:
   - EVReflection/XML (4.5.0):
     - EVReflection/Core
     - XMLDictionary
+  - R.swift.Library (3.0.2)
   - RxBlocking (3.2.0):
     - RxSwift (~> 3.1)
   - RxCocoa (3.2.0):
@@ -20,6 +21,14 @@ PODS:
   - RxSwift (3.2.0)
   - RxTest (3.2.0):
     - RxSwift (~> 3.0)
+  - SegueManager (3.1.0):
+    - SegueManager/iOS (= 3.1.0)
+    - SegueManager/OSX (= 3.1.0)
+    - SegueManager/R.swift (= 3.1.0)
+  - SegueManager/iOS (3.1.0)
+  - SegueManager/R.swift (3.1.0):
+    - R.swift.Library
+    - SegueManager/iOS
   - Swinject (2.0.0)
   - SwinjectStoryboard (1.0.0):
     - Swinject (= 2.0.0)
@@ -32,21 +41,24 @@ DEPENDENCIES:
   - RxDataSources (~> 1.0)
   - RxSwift (~> 3.2)
   - RxTest (~> 3.2)
+  - SegueManager
   - Swinject (~> 2.0.0)
   - SwinjectStoryboard (~> 1.0.0)
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   EVReflection: f3ef628809585feefa72bf6a8b1ffd3a7a619bdb
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
   RxBlocking: ec8ed471ba77b4fb98a2d60f1f8419b0b46eaa23
   RxCocoa: ccdf43101a70407097a29082f648ba1676075b30
   RxDataSources: a021a0e944ba5f7991259829d973afdbfa719c0b
   RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
   RxTest: 85fdd6f753e8e62635a58d37bbdd3ce7d5abbef3
+  SegueManager: 553e2047fd9a83f0cdcc8038adbdfc28e278e2d9
   Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
   SwinjectStoryboard: 8e0d3c0202b64172bdf915d55e8dc83d9c4e7863
   XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
 
-PODFILE CHECKSUM: 80da4d7dddd19f65427b63638e049451748bb7b0
+PODFILE CHECKSUM: df453b1a406018bdf85ee1d85797843f5b7a5893
 
 COCOAPODS: 1.1.1

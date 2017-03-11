@@ -12,7 +12,7 @@ target 'l6reader' do
   pod 'SwinjectStoryboard', '~> 1.0.0'
   pod 'RxDataSources', '~> 1.0'
   pod 'EVReflection/AlamofireXML'
-
+  pod 'SegueManager'
 
   target 'l6readerIntegrationTests' do
     inherit! :search_paths

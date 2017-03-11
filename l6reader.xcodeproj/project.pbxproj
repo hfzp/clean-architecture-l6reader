@@ -11,6 +11,7 @@
 		863C1CDE1E73ABBB00A24F78 /* L6FeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1CDD1E73ABBB00A24F78 /* L6FeedService.swift */; };
 		863C1D011E73B41B00A24F78 /* L6FeedServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */; };
 		8656A4661E73E3E100A3DCB7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8656A4651E73E3E100A3DCB7 /* Podfile */; };
+		8656A4681E73FA4900A3DCB7 /* ArticleDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A4671E73FA4900A3DCB7 /* ArticleDisplayViewController.swift */; };
 		8A6E774C0294E65A41C29E7C /* Pods_l6readerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */; };
 		D5164C9F3D46D9D5AA4CBF1E /* Pods_l6readerIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF2964277BBA58EF7F68072 /* Pods_l6readerIntegrationTests.framework */; };
 		F71676FC1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71676FB1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift */; };
@@ -53,6 +54,7 @@
 		863C1CFA1E73B3DD00A24F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L6FeedServiceTests.swift; sourceTree = "<group>"; };
 		8656A4651E73E3E100A3DCB7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		8656A4671E73FA4900A3DCB7 /* ArticleDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDisplayViewController.swift; sourceTree = "<group>"; };
 		B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6readerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF23150C11502ADEFC2DB4EB /* Pods_l6reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A4BADD6312B316FA892FF1 /* Pods-l6reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-l6reader/Pods-l6reader.release.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				F716772A1E7244FD00DD460C /* ArticleListingViewController.swift */,
+				8656A4671E73FA4900A3DCB7 /* ArticleDisplayViewController.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -243,8 +246,8 @@
 		F74BB5931E6E755D008F6EFE /* l6reader */ = {
 			isa = PBXGroup;
 			children = (
-				F716772E1E72455500DD460C /* app */,
 				F716772C1E72453E00DD460C /* resources */,
+				F716772E1E72455500DD460C /* app */,
 				F74BB5C71E6E7CD7008F6EFE /* entities */,
 				F74BB5C41E6E7C06008F6EFE /* interactors */,
 				F71676FD1E6FA27500DD460C /* viewmodels */,
@@ -583,6 +586,7 @@
 			files = (
 				F716772B1E7244FD00DD460C /* ArticleListingViewController.swift in Sources */,
 				F71676FF1E6FA29500DD460C /* ArticleListingViewModel.swift in Sources */,
+				8656A4681E73FA4900A3DCB7 /* ArticleDisplayViewController.swift in Sources */,
 				F74BB5CB1E6E8168008F6EFE /* L6Service.swift in Sources */,
 				F74BB5C91E6E7CF2008F6EFE /* Article.swift in Sources */,
 				F71677321E7245E400DD460C /* SwinjectStoryboard+Setup.swift in Sources */,
