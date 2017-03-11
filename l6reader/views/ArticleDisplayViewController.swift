@@ -3,7 +3,7 @@
 //  l6reader
 //
 //  Created by Hafiz Pariabi on 3/11/17.
-//  Copyright © 2017 woi. All rights reserved.
+//  Copyright © 2017 Hafiz Pariabi. All rights reserved.
 //
 
 import UIKit

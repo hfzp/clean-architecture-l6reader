@@ -2,8 +2,8 @@
 //  ArticleListingViewModel.swift
 //  l6reader
 //
-//  Created by woi on 3/8/17.
-//  Copyright © 2017 woi. All rights reserved.
+//  Created by Hafiz Pariabi on 3/8/17.
+//  Copyright © 2017 Hafiz Pariabi. All rights reserved.
 //
 
 import Foundation
