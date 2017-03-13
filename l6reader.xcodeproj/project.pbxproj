@@ -12,6 +12,7 @@
 		863C1D011E73B41B00A24F78 /* L6FeedServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */; };
 		8656A4661E73E3E100A3DCB7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8656A4651E73E3E100A3DCB7 /* Podfile */; };
 		8656A4681E73FA4900A3DCB7 /* ArticleDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A4671E73FA4900A3DCB7 /* ArticleDisplayViewController.swift */; };
+		8656A4781E76E3A600A3DCB7 /* l6readerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656A4771E76E3A600A3DCB7 /* l6readerUITests.swift */; };
 		8A6E774C0294E65A41C29E7C /* Pods_l6readerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */; };
 		D5164C9F3D46D9D5AA4CBF1E /* Pods_l6readerIntegrationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF2964277BBA58EF7F68072 /* Pods_l6readerIntegrationTests.framework */; };
 		F71676FC1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71676FB1E6FA0BE00DD460C /* ArticleListingViewModelTest.swift */; };
@@ -30,6 +31,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		863C1CFB1E73B3DD00A24F78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F74BB5891E6E755D008F6EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F74BB5901E6E755D008F6EFE;
+			remoteInfo = l6reader;
+		};
+		8656A4721E76E32B00A3DCB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F74BB5891E6E755D008F6EFE /* Project object */;
 			proxyType = 1;
@@ -55,6 +63,9 @@
 		863C1D001E73B41B00A24F78 /* L6FeedServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L6FeedServiceTests.swift; sourceTree = "<group>"; };
 		8656A4651E73E3E100A3DCB7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		8656A4671E73FA4900A3DCB7 /* ArticleDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDisplayViewController.swift; sourceTree = "<group>"; };
+		8656A46D1E76E32B00A3DCB7 /* l6readerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = l6readerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8656A4711E76E32B00A3DCB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8656A4771E76E3A600A3DCB7 /* l6readerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = l6readerUITests.swift; sourceTree = "<group>"; };
 		B3B6D97B051A745144422937 /* Pods_l6readerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6readerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF23150C11502ADEFC2DB4EB /* Pods_l6reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_l6reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A4BADD6312B316FA892FF1 /* Pods-l6reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-l6reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-l6reader/Pods-l6reader.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +117,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8656A46A1E76E32B00A3DCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F74BB58E1E6E755D008F6EFE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -140,6 +158,15 @@
 				863C1CFA1E73B3DD00A24F78 /* Info.plist */,
 			);
 			path = l6readerIntegrationTests;
+			sourceTree = "<group>";
+		};
+		8656A46E1E76E32B00A3DCB7 /* l6readerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8656A4771E76E3A600A3DCB7 /* l6readerUITests.swift */,
+				8656A4711E76E32B00A3DCB7 /* Info.plist */,
+			);
+			path = l6readerUITests;
 			sourceTree = "<group>";
 		};
 		F0D6942FB2A4F4C356B94EC8 /* Pods */ = {
@@ -227,6 +254,7 @@
 				F74BB5A81E6E755D008F6EFE /* l6readerTests */,
 				F74BB5B31E6E755D008F6EFE /* l6readerUITests */,
 				863C1CF71E73B3DD00A24F78 /* l6readerIntegrationTests */,
+				8656A46E1E76E32B00A3DCB7 /* l6readerUITests */,
 				F74BB5921E6E755D008F6EFE /* Products */,
 				F71676EB1E6E872500DD460C /* Frameworks */,
 				F0D6942FB2A4F4C356B94EC8 /* Pods */,
@@ -239,6 +267,7 @@
 				F74BB5911E6E755D008F6EFE /* l6reader.app */,
 				F74BB5A51E6E755D008F6EFE /* l6readerTests.xctest */,
 				863C1CF61E73B3DC00A24F78 /* l6readerIntegrationTests.xctest */,
+				8656A46D1E76E32B00A3DCB7 /* l6readerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -316,6 +345,24 @@
 			productReference = 863C1CF61E73B3DC00A24F78 /* l6readerIntegrationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8656A46C1E76E32B00A3DCB7 /* l6readerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8656A4761E76E32B00A3DCB7 /* Build configuration list for PBXNativeTarget "l6readerUITests" */;
+			buildPhases = (
+				8656A4691E76E32B00A3DCB7 /* Sources */,
+				8656A46A1E76E32B00A3DCB7 /* Frameworks */,
+				8656A46B1E76E32B00A3DCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8656A4731E76E32B00A3DCB7 /* PBXTargetDependency */,
+			);
+			name = l6readerUITests;
+			productName = l6readerUITests;
+			productReference = 8656A46D1E76E32B00A3DCB7 /* l6readerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		F74BB5901E6E755D008F6EFE /* l6reader */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F74BB5B91E6E755D008F6EFE /* Build configuration list for PBXNativeTarget "l6reader" */;
@@ -372,6 +419,12 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = F74BB5901E6E755D008F6EFE;
 					};
+					8656A46C1E76E32B00A3DCB7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F74BB5901E6E755D008F6EFE;
+					};
 					F74BB5901E6E755D008F6EFE = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = DDHE33635F;
@@ -401,12 +454,20 @@
 				F74BB5901E6E755D008F6EFE /* l6reader */,
 				F74BB5A41E6E755D008F6EFE /* l6readerTests */,
 				863C1CF51E73B3DC00A24F78 /* l6readerIntegrationTests */,
+				8656A46C1E76E32B00A3DCB7 /* l6readerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		863C1CF41E73B3DC00A24F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8656A46B1E76E32B00A3DCB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -580,6 +641,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8656A4691E76E32B00A3DCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8656A4781E76E3A600A3DCB7 /* l6readerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F74BB58D1E6E755D008F6EFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -612,6 +681,11 @@
 			isa = PBXTargetDependency;
 			target = F74BB5901E6E755D008F6EFE /* l6reader */;
 			targetProxy = 863C1CFB1E73B3DD00A24F78 /* PBXContainerItemProxy */;
+		};
+		8656A4731E76E32B00A3DCB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F74BB5901E6E755D008F6EFE /* l6reader */;
+			targetProxy = 8656A4721E76E32B00A3DCB7 /* PBXContainerItemProxy */;
 		};
 		F74BB5A71E6E755D008F6EFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -675,6 +749,35 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/l6reader.app/l6reader";
+			};
+			name = Release;
+		};
+		8656A4741E76E32B00A3DCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = l6readerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hafiz.l6readerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = l6reader;
+			};
+			name = Debug;
+		};
+		8656A4751E76E32B00A3DCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = l6readerUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hafiz.l6readerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = l6reader;
 			};
 			name = Release;
 		};
@@ -860,6 +963,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8656A4761E76E32B00A3DCB7 /* Build configuration list for PBXNativeTarget "l6readerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8656A4741E76E32B00A3DCB7 /* Debug */,
+				8656A4751E76E32B00A3DCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		F74BB58C1E6E755D008F6EFE /* Build configuration list for PBXProject "l6reader" */ = {
 			isa = XCConfigurationList;
